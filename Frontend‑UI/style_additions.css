@@ -1,0 +1,23 @@
+/* ============================================================
+   APPEND THIS TO THE END OF style.css
+   (One small rule for the red "unread" badge on Support nav link)
+   ============================================================ */
+.nav-link {
+    position: relative;
+}
+.nav-badge {
+    margin-left: auto;
+    background: #e53935;
+    color: #fff;
+    font-size: 10.5px;
+    font-weight: 700;
+    padding: 1px 7px;
+    border-radius: 20px;
+    min-width: 20px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.18);
+}
+.nav-link.active .nav-badge {
+    background: #fff;
+    color: #c62828;
+}
